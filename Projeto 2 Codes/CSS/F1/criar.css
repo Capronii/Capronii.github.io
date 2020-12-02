@@ -1,0 +1,108 @@
+.celular {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    position: relative;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 1rem;   
+    background-color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: .1rem solid black;
+    background-color: blue;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+main {
+    height:100%;
+    width:100%;
+    display: flex;
+    margin: 1rem;
+    flex-direction: column;
+    font-family: 'Lora', serif;
+    
+
+}
+
+form{
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+a{
+
+    display: flex;
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+
+head {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1rem;
+}
+
+.seta{
+    width: 1.8rem;
+    height: 1.8rem;
+    background-color: white;
+    margin-top: 0.5rem;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.bo{
+    display: flex;
+    color:whitesmoke;
+    text-decoration: none;
+    margin: 1rem;
+    border: .1rem solid whitesmoke;
+    padding: 1rem 1rem 1rem 1rem;
+    text-decoration: none;
+    border-radius: .5rem;
+}
+
+.seta_esq{
+    height: 2rem;
+    width: 3rem;
+    position: absolute;
+    left: 0;
+    top: 0rem;
+}

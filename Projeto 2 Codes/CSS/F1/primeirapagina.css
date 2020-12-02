@@ -1,0 +1,60 @@
+.celular {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    position: relative;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 1rem;   
+    background-color: white;
+    background-color: black;
+    font-family: 'Lora', serif;
+}
+
+
+header {
+    display: flex;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    border: .1rem solid black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+main {
+    height:100%;
+    width:100%;
+    display: flex;
+    margin: 1rem;
+    flex-direction: column;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+head {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1rem;
+    border-bottom: 1rem solid black;
+}
