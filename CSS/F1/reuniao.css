@@ -1,0 +1,82 @@
+.celular {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    position: relative;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 1rem;   
+    background-color: black;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h1 {
+    color: white;
+    font-size: 2rem;
+    border-bottom: 1rem solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 2rem;
+    background-color: black;
+    font-family: 'Josefin Sans', sans-serif;    
+    border-bottom: .1rem solid white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.camera{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.tam{
+    height:18rem;
+    width:18rem;
+
+}
+
+.itens{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem
+}
+
+.desl{
+    height: 4rem;
+    width: 4rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 10rem;
+}
+
+.micro{
+    height: 150px;
+    width: 150px;
+}
+
+.cod{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    margin-top: 3rem
+}
+main{
+    font-family: 'Lora', serif;
+}
